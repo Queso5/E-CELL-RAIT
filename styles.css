@@ -2,6 +2,10 @@
     font-family:monospace
 }
 
+:root{
+    --main-color: rgb(249,129,77);
+}
+
 
  .mainbody-div h1{
     padding-top: 20%;
@@ -40,44 +44,57 @@ li a {
     padding: 1rem;
     border-radius: 2rem;
     background-color: black;
+    text-decoration: none;
+}
+
+.heroSection{
+    padding: 10% 2%;
+    width: 45%;  
+}
+
+
+.imgSection{
+    float: right;
+    width: 40%;
+    padding: 10% 2%;
+
+
 }
 
 .mainbody h1 {
-    margin-left: 5%;
     margin-bottom: 0%;
-   font-size: 11vh;
-   margin-top: 15%;
+    font-size: 11vh;
+    margin-top: 15%;
 }
 
 .mainbody h2 {
-    margin-left: 5%;
     font-size:  4vh;
     margin-bottom: 3%;
 }
 
 .Join-btn {
-    margin-left: 5%;
+    
     padding: 10px 20px;
     font-size: 24px;
     font-weight: bold;
     text-align: center;
     color: #fff;
-    background-color: #ff5252;
+    background-color:  var(--main-color);
     border: 2px solid #000;
     border-radius: 10px;
     box-shadow: 5px 5px 0px #000;
     transition: all 0.3s ease;
     cursor: pointer;
-  
+
   }
-  
+
   .Join-btn:hover {
     background-color: #fff;
-    color: #ff5252;
-    border: 2px solid #ff5252;
-    box-shadow: 5px 5px 0px #ff5252;
+    color: var(--main-color);
+    border: 2px solid var(--main-color);
+    box-shadow: 5px 5px 0px var(--main-color);
   }
-  
+
   .Join-btn:active {
     background-color: #000;
     color: #fff;
@@ -85,9 +102,12 @@ li a {
     transform: translateY(4px);
 
 }
+
 nav a:hover{
-    background-color: rgba(255, 166, 0, 0.685);
+    background-color:var(--main-colorColor);
 }
+
+
 
 
 
