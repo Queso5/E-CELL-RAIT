@@ -98,5 +98,5 @@ li a {
 }
 
 nav a:hover{
-    background-color:var(--main-colorColor);
+    background-color:var(--main-color);
 }
