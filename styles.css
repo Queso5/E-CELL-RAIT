@@ -6,15 +6,7 @@
     --main-color: rgb(249,129,77);
 }
 
-
- .mainbody-div h1{
-    padding-top: 20%;
-    margin: 0%;
-    margin-left: 5%;
-   font-size: 10vh;;
-}
-
- .navbar {
+.navbar {
 padding-left: 15px;
 padding-right: 15px;
 }
