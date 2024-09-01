@@ -2,68 +2,14 @@
     font-family:monospace
 }
 
-:root {
+:root{
     --main-color: rgb(249,129,77);
 }
 
 
-
-
- .navbar {
-padding-left: 15px;
-padding-right: 15px;
-}
-
-.navdiv {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
-}
-
-nav a:hover{
-    cursor: pointer;
-    color: black;
-    text-decoration: none;
-    background-color: var(--main-color);
-}
-
-logo a {
-    font-size: 10rem;
-    font-weight: 600;
-}
-
-li {
-    list-style: none;
-    display: inline-block;
-    padding: 2rem;
-    
-}
-
-li a {
-    color: #fff;
-    border:  solid black;
-    padding: 1rem;
-    border-radius: 2rem;
-    background-color: black;
-    text-decoration: none;
-}
-
-.mainbody h1 {
-    margin-left: 5%;
-    margin-bottom: 2%;
-   font-size: 11vh;
-   margin-top: 30%;
-}
-
-.mainbody h2 {
-    margin-left: 5%;
-    font-size:  4vh;
-    margin-bottom: 3%;
-   
-}
-
-.Join-btn {
+ .mainbody-div h1{
+    padding-top: 20%;
+    margin: 0%;
     margin-left: 5%;
     padding: 10px 20px;
     font-size: 24px;
@@ -132,25 +78,36 @@ li a {
     padding: 1rem;
     border-radius: 2rem;
     background-color: black;
+    text-decoration: none;
 }
 
-.h1-div h1 {
-    margin-top: 65%;
-    font-size: 6vh;
-    display: flex;
-    align-items: center;
+.heroSection{
+    padding: 10% 2%;
+    width: 45%;  
+}
+
+
+.imgSection{
+    float: right;
+    width: 40%;
+    padding: 10% 2%;
+
+
+}
+
+.mainbody h1 {
+    margin-bottom: 0%;
+    font-size: 11vh;
+    margin-top: 15%;
 }
 
 .mainbody h2 {
-  
-   display: flex;
-   align-items: center;
-    font-size:  3vh;
+    font-size:  4vh;
     margin-bottom: 3%;
 }
 
 .Join-btn {
-    margin-left: 5%;
+    
     padding: 10px 20px;
     font-size: 24px;
     font-weight: bold;
@@ -162,16 +119,16 @@ li a {
     box-shadow: 5px 5px 0px #000;
     transition: all 0.3s ease;
     cursor: pointer;
-  
+
   }
-  
+
   .Join-btn:hover {
     background-color: #fff;
     color: var(--main-color);
     border: 2px solid var(--main-color);
     box-shadow: 5px 5px 0px var(--main-color);
   }
-  
+
   .Join-btn:active {
     background-color: #000;
     color: #fff;
@@ -179,8 +136,12 @@ li a {
     transform: translateY(4px);
 
 }
-    
+
+nav a:hover{
+    background-color:var(--main-colorColor);
 }
+
+
 
 
 
